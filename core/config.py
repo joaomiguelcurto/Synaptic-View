@@ -1,0 +1,24 @@
+# Configuration Constants
+
+# Colors (RGB tuples)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+GRID_COLOR_1 = (40, 40, 40) # Dark Gray
+GRID_COLOR_2 = (60, 60, 60) # Light Gray
+
+# Game
+GAME_SCREEN_WIDTH = 1600
+GAME_SCREEN_HEIGHT = 900
+CELL_SIZE = 32
+GRID_WIDTH = GAME_SCREEN_WIDTH // CELL_SIZE  # 25 cells wide
+GRID_HEIGHT = GAME_SCREEN_HEIGHT // CELL_SIZE # 18 cells high
+GAME_CAPTION = "Synaptic Viewer"
+FPS = 144
+
+# Monitor
+MONITOR_SCREEN_WIDTH = 800
+MONITOR_SCREEN_HEIGHT = 600
+MONITOR_CAPTION = "Synaptic Monitor"
